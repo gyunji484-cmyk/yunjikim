@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OO고등학교</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>OO고등학교</h1>
+    <nav>
+      <a href="#">학교 소개</a>
+      <a href="#">학교 생활</a>
+      <a href="#">학습/진로</a>
+      <a href="#">소통 공간</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="notice">
+      <h2>주요 공지</h2>
+      <ul>
+        <li>[공지] 2024학년도 1학기 기말고사 안내</li>
+        <li>[공지] 학교 축제 참가 신청 안내</li>
+      </ul>
+    </section>
+
+    <section class="calendar">
+      <h2>학교 캘린더</h2>
+      <!-- 캘린더 내용 -->
+    </section>
+
+    <section class="meal">
+      <h2>오늘의 급식</h2>
+      <!-- 급식 메뉴 -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright © 2024 OO고등학교</p>
+  </footer>
+
+</body>
+</html>
