@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Winter Design Portfolio">
+    <meta name="author" content="Designer">
+    <title>Winter Collection | Professional Design Studio</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Winter Studio</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Winter's Elegance</h1>
+            <p class="hero-subtitle">Capturing the Beauty of Seasonal Design</p>
+            <button class="cta-button">Explore Collection</button>
+        </div>
+        <div class="hero-background">
+            <canvas id="snowCanvas"></canvas>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <article class="portfolio-card">
+                    <div class="card-image">
+                        <span class="icon">☃️</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Snowman Series</h3>
+                        <p>A collection of minimalist snowman designs featuring geometric shapes and modern aesthetics.</p>
+                        <span class="tag">UI Design</span>
+                    </div>
+                </article>
+
+                <article class="portfolio-card">
+                    <div class="card-image">
+                        <span class="icon">❄️</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Crystal Pattern</h3>
+                        <p>Sophisticated snowflake patterns inspired by nature, perfect for winter branding projects.</p>
+                        <span class="tag">Graphic Design</span>
+                    </div>
+                </article>
+
+                <article class="portfolio-card">
+                    <div class="card-image">
+                        <span class="icon">⛄</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Glacial Landscape</h3>
+                        <p>Dynamic landscape compositions capturing the serene beauty of winter environments.</p>
+                        <span class="tag">Web Design</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        We are a design studio specializing in seasonal aesthetics and modern web design. 
+                        Our mission is to create compelling visual experiences that resonate with contemporary audiences.
+                    </p>
+                    <p>
+                        With expertise in UI/UX design, branding, and digital strategy, we transform creative visions 
+                        into functional, beautiful digital products.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <span>Web Design</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>UI/UX</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Brand Strategy</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Winter Studio</h4>
+                    <p>Professional Design Solutions</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Winter Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
